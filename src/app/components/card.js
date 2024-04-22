@@ -15,7 +15,7 @@ import Ad4 from "./ad4"
           <div className="shadow-6 border border-primary rounded m-2 p-2 w-45 sm:w-100">
           <Ad3/>
           </div>
-            {data.map((e,i) => (
+            {data?.map((e,i) => (
                 <div className="shadow-6 border border-primary rounded m-2 p-2 w-45 sm:w-100" key={e.question_id}>
                     <div className="h4">{e.title.slice(0,30)+"..."}</div><hr />
                     <div>
